@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+
+/*Navbar*/
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 16pt;
+    padding: 0 20px;
+}
+
+.navbar button {
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+.navbar {
+    padding: 10px 30px;
+    background-color: white;
+}
+
+
+/*Cover*/
+
+.cover {
+    line-height: 1.6;
+    background-image: url('https://bookingfwi.com/uploads/photos9/18.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 20px;
+}
+
+.cover h2 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #333;
+}
+
+.first-page-button {
+    font-size: 16pt;
+    font-weight: 400;
+    padding: 5px 15px;
+    margin: 20px;
+}
+
+
+/*The feature walkthrough*/
+
+
+
+
+/*Features*/
+
+.icons-text {
+    font-size: 16pt;
+}
+
+
+/*Feedback*/
+
+.feedback-card {
+    margin: 50px 50px;
+    padding: 60px auto;
+}
+
+.feedback-name {
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+.feedback-text {
+    font-size: 16pt;
+}
+
+.feedback-image {
+    border-radius: 10px;
+}
+
+
+/*Price*/
+
+.pricing-table {
+    border-style: none;
+    padding: 0;
+    width: 70%;
+    box-shadow: 0px 2px 12px 0px gray;
+    border-radius: 2%;
+}
+
+.price {
+    font-size: 32pt;
+    font-weight: 700;
+    font-family: Roboto;
+    margin-bottom: 40px !important;
+    margin-top: 25px !important;
+}
+
+.price-number {
+    font-size: 16pt;
+    font-weight: 700;
+    font-family: Roboto;
+}
+
+.price-text {
+    font-size: 20pt;
+}
+
+.price-button {
+    font-size: 16pt;
+    margin: 40px 20px 10px 20px;
+    font-weight: 700;
+}
+
+
+/*FAQ*/
+
+.faq-question {
+    text-decoration: none;
+    color: black;
+    margin: 5px 20px;
+}
+
+.faq-question a {
+    text-decoration: none;
+    color: black;
+}
+
+.faq-question a:hover {
+    text-decoration: underline;
+}
+
+
+/*Form*/
+
+.form {
+    margin: 150px 20px;
+    box-shadow: 0px 2px 12px 0px gray;
+    border-radius: 20px;
+    padding: 45px;
+    padding-top: 10px !important;
+    max-width: 1300px;
+    overflow-x: hidden;
+}
+
+.question {
+    font-size: 16pt;
+    line-height: 1.6em;
+    margin-top: 20px;
+}
+
+.form-input {
+    border: none;
+    border-bottom: 2px solid #B881FD;
+    padding: 10px;
+    font-size: 12pt;
+}
+
+.form-input:focus {
+    outline: none;
+    border: none;
+    border: 2px solid #B881FD;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12pt;
+}
+
+.submit {
+    margin-top: 40px;
+    padding: 10px 50px;
+    font-size: 12pt;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.contacts {
+    font-size: 16pt;
+    line-height: 1.1em;
+    word-wrap: break-word;
+}
+
+.icon-contacts {
+    margin: 5px !important;
+}
+
+.icon-social-form {
+    height: 45px !important;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #b881fd;
+    margin: 20px;
+}
+
+
+/*Quote*/
+
+.div-quote {
+    margin: 20vh 20px 20vh 20px;
+    padding: 0 20px;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: black;
+}
+
+.div-footer a {
+    text-decoration: none;
+    color: #88785b;
+}
+
+.div-footer p {
+    text-decoration: none;
+    color: #88785b;
+}
+
+.div-footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: #88785b;
+}
+
+.div-footer {
+    padding: 15px;
+}
+
+
+/*Text decoration*/
+
+.bold {
+    font-weight: 700;
+}
+
+.list {
+    list-style-type: square;
+}
+
+.My-header {
+    font-weight: 700;
+    font-size: 32pt;
+}
+
+.white {
+    color: white !important;
+}
+
+
+/*Color decoration*/
+
+.btn-success {
+    background-color: #b881fd !important;
+    border: none;
+}
+
+.table-success {
+    background-color: #b881fd !important;
+    color: white;
+}
+
+/*Adaptive*/
+
+@media screen and (min-width: 991px) {
+    .pic-small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .pic-large {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .feedback-text {
+        font-size: 12pt;
+    }
+}
+
+@media screen and  (max-width: 520px) {
+    .My-header {
+        font-weight: 700;
+        font-size: 24pt;
+        overflow-x: hidden;
+    }
+
+    .btn-quote {
+        font-size: 12pt;
+        overflow-x: hidden;
+    }
+
+    .text-quote {
+        font-size: 12pt !important;
+        overflow-x: hidden;
+    }
+
+    .form {
+        margin: 150px 20px;
+        box-shadow: 0px 2px 12px 0px gray;
+        border-radius: 20px;
+        padding: 45px 15px;
+        padding-top: 10px !important;
+        max-width: 1300px;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and  (max-width: 420px) {
+    .cover h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    }
+}
+
+/*Costyli*/
+
+.black {
+    color: black;
+}
+
+.icons-margin {
+    margin: 0 5px;
+}
+
+
+
+
+
+
